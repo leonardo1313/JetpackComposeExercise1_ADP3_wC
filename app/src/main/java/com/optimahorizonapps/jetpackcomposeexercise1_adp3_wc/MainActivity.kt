@@ -38,20 +38,6 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-//@Composable
-//fun ImagePreview() {
-//    val image = painterResource(R.drawable.bg_compose_background)
-//
-//    Box {
-//        Image(
-//            painter = image,
-//            contentDescription = null,
-//            modifier = Modifier
-//                .fillMaxWidth())
-//    }
-//    TextScreen()
-//}
-
 @Composable
 fun TextScreen() {
     val image = painterResource(R.drawable.bg_compose_background)
